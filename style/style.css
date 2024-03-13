@@ -1,0 +1,241 @@
+ @import url('../style/reset.css');
+
+ body {
+   direction: rtl;
+ }
+
+ .container {
+   width: 1100px;
+   margin: auto;
+
+ }
+
+ /* header */
+
+ #header {
+   height: 100px;
+   position: relative;
+ }
+
+ #header .logo img {
+   width: 100px;
+   padding: 10px;
+   border-radius: 20px;
+   float: right;
+ }
+
+
+ #header .logo h1 {
+   font-size: 25px;
+   font-weight: bold;
+   padding-top: 20px;
+ }
+
+ #header .logo h2 {
+   font-size: 20px;
+   margin-top: 15px;
+ }
+
+ #header .form {
+   position: absolute;
+   top: 40px;
+   left: 15px;
+
+ }
+
+ #header .form .register {
+   padding: 8px 15px;
+   border-radius: 5px;
+   border: none;
+   font-size: 16px;
+   color: white;
+   background-color: green;
+ }
+
+ #header .form .register:hover {
+   background-color: rgb(9, 83, 9);
+   cursor: pointer;
+ }
+
+ #header .form .enter {
+   padding: 8px;
+   border-radius: 5px;
+   color: white;
+   font-size: 16px;
+   border: none;
+   background-color: blue;
+ }
+
+ #header .form .enter:hover {
+   background-color: rgb(10, 10, 147);
+   cursor: pointer;
+ }
+
+ /* navigation */
+ #navigation {
+   background-color: black;
+   margin-top: 20px;
+ }
+
+ #navigation ul li {
+   display: inline-block;
+   padding: 10px;
+   margin-left: 15px;
+ }
+
+ #navigation ul li a {
+   font-size: 18px;
+   text-decoration: none;
+   color: white;
+ }
+
+ #navigation ul li:hover {
+   background-color: rgba(140, 153, 165, 0.774);
+ }
+
+ .clearFixed {
+   clear: both;
+ }
+
+ /* artical */
+ #artical {
+   width: 800px;
+   float: right;
+/* background-color: rgb(170, 177, 167); */
+   box-sizing: border-box;
+   margin-top: 10px;
+ }
+
+
+ #artical .post .post-item img {
+   width: 270px;
+   border-radius: 5px;
+   margin: 10px;
+   float: right;
+ }
+
+ #artical .post .post-item h1 {
+   font-size: 22px;
+   font-weight: bold;
+   margin-top: 10px;
+   border-bottom: 2px dashed rgb(134, 132, 132);
+   padding: 5px;
+ }
+
+ #artical .post .post-item p {
+   margin-top: 5px;
+   line-height: 27px;
+   font-size: 17px;
+   height: 270px;
+   overflow: auto;
+ }
+ #artical .post{
+  margin-top: 15px;
+  background-color: rgb(213, 205, 205);
+ }
+
+ #artical .post .data {
+   background-color: gray;
+   padding: 10px;
+   position: relative;
+ }
+
+ #artical .post .more {
+   position: absolute;
+   left: 10px;
+   top: 7px;
+   background-color: black;
+   padding: 3px 15px;
+   font-size: 16px;
+   border-radius: 5px;
+   color: white;
+   text-align: center;
+ }
+
+ #artical .post .more:hover {
+   opacity: 0.8;
+   cursor: pointer;
+ }
+
+ /* aside */
+
+ #aside {
+   width: 300px;
+   float: left;
+   box-sizing: border-box;
+ }
+
+ #aside .item {
+   background-color: palevioletred;
+   margin-top: 10px;
+   margin-right: 10px;
+ }
+
+
+ #aside .item .list ul li {
+   border-right: solid 2px white;
+   margin-top: 10px;
+   margin-right: 5px;
+ }
+
+ #aside .item .list ul li a {
+   text-decoration: none;
+   color: white;
+   margin-right: 10px;
+ }
+
+ #aside .item .list ul li:hover {
+   margin-right: 15px;
+   cursor: pointer;
+   transition: 0.20s;
+ }
+
+ #aside .item .header {
+   background-color: black;
+   padding: 10px;
+   border-radius: 0px 0px 5px 5px;
+   color: white;
+   font-size: 18px;
+   text-align: center;
+ }
+
+ #aside .list-input {
+   text-align: center;
+   font-size: 20px;
+   margin-top: 10px;
+   line-height: 25px;
+ }
+
+ #aside .list-input .input {
+   width: 90%;
+   outline: none;
+   border: 1px solid gray;
+   padding: 10px;
+   border-radius: 5px;
+   margin-top: 10px;
+ }
+
+ #aside .list-input .submit {
+   background-color: green;
+   padding: 5px 20px;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   margin-top: 10px;
+ }
+
+ #aside .list-input .submit:hover {
+   background-color: rgb(8, 88, 8);
+   cursor: pointer;
+ }
+
+ /* footer */
+
+ #footer {
+   background-color: black;
+   text-align: center;
+   font-size: 18px;
+   padding: 10px;
+   color: white;
+   margin-top: 15px;
+ }
